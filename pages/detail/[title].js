@@ -50,13 +50,13 @@ const Detail = () => {
           className="h-64 w-full object-cover sm:h-80 lg:h-96"
         />
 
-        <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl text-center">
+        <h3 className="font-playfair-display mt-4 text-lg font-bold text-gray-900 sm:text-xl text-center">
           {title}
         </h3>
 
         <hr className="w-1/6 border-t border-gray-300 my-8" />
 
-        <p className="mt-2 max-w-sm text-gray-500 text-center">
+        <p className="font-noto-serif mt-2 max-w-sm text-gray-500 text-center">
           {description || "No description availablze."}
         </p>
 
